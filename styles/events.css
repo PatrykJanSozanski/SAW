@@ -1,0 +1,59 @@
+html {
+    background-color: #ef4122;
+
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "Roboto Thin", sans-serif;
+
+    background-color: white;
+
+    margin: 0;
+    padding-top: 5px;
+
+    width: 100%;
+}
+
+html,body {
+    overflow-x: hidden;
+
+    padding: 0;
+}
+
+div.content {
+    margin: 0 10% 10%;
+}
+
+.content div {
+    margin-bottom: 10%;
+}
+
+.content div p{
+    text-align: justify;
+}
+
+h1 {
+    color: #ef4122;
+}
+
+h3, h5 {
+    color: #f9abab;
+}
+
+#no_match {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin: 5%;
+}
+
+#no_match p {
+    text-align: center;
+}
+
+#no_match div img {
+    width: 20%;
+}

@@ -1,0 +1,199 @@
+html {
+    background-color: #ef4122;
+
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: white;
+
+    margin: 0;
+    padding-top: 5px;
+
+    width: 100%;
+}
+
+html, body {
+    overflow-x: hidden;
+
+    padding: 0;
+}
+
+div.content {
+    margin: 50px 0 0;
+}
+
+.content div {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+div.poster_desc {
+    display: block;
+    float: left;
+
+    font-family: "Roboto Thin", sans-serif;
+
+    text-align: right;
+
+    margin: auto;
+    padding-left: 10%;
+
+    width: 40%;
+}
+
+.poster_desc h1 {
+    display: inline-block;
+    float: right;
+
+    font-size: 60px;
+
+    margin: 0;
+
+    width: 100%;
+}
+
+.poster_desc h1 span {
+    color: #f9abab;
+}
+
+.woman {
+    font-family: "Apple SD Gothic Neo", sans-serif;
+}
+
+.poster_desc h1 {
+    display: inline-block;
+    float: right;
+
+    font-size: 60px;
+
+    margin: 0 0 20px;
+
+    width: 100%;
+}
+
+.poster_desc h3 {
+    display: inline-block;
+    float: right;
+
+    color: #6b6c6b;
+    font-size: 20px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    width: 100%;
+}
+
+
+div.poster_div {
+    display: block;
+    float: right;
+
+    padding-right: 10%;
+
+    width: 60%;
+}
+
+img.poster {
+    width: 100%;
+}
+
+div.join {
+    font-family: "Roboto Thin", sans-serif;
+
+    margin: 5% 0 0;
+
+    height: fit-content;
+    width: 100%;
+}
+
+.join div {
+    display: inline;
+
+    overflow: hidden;
+}
+
+.join h1 {
+    float: right;
+
+    font-size: 60px;
+
+    text-align: right;
+
+    padding-left: 10%;
+    padding-right: 1%;
+
+    width: 40%;
+}
+
+.join h2 {
+    float: right;
+
+    font-size: 40px;
+
+    text-align: right;
+
+    padding-left: 10%;
+    padding-right: 1%;
+
+    width: 40%;
+}
+
+.join h3 {
+    float: right;
+
+    color: #6b6c6b;
+    font-size: 20px;
+
+    text-align: left;
+
+    padding-right: 10%;
+    padding-left: 1%;
+
+    width: 60%;
+}
+
+div.join_button {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 0 5%;
+}
+
+.join_button a {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: fit-content;
+}
+
+.join_button button {
+    color: white;
+    font-weight: bolder;
+
+    background-color: #ef4122;
+
+    border-color: #ef4122;
+    border-radius: 0;
+    border-width: 1px;
+    border-style: none;
+
+    padding: 0 30%;
+
+    cursor: pointer;
+}
+
+.join_button button:hover {
+    background-color: #f9abab;
+}

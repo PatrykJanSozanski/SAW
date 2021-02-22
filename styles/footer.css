@@ -1,0 +1,221 @@
+footer {
+    color: white;
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 100%;
+
+    background-color: #ef4122;
+}
+
+div.follow {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 5% 0;
+}
+
+div.social_media_div {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding-inline: 2%;
+
+    width: 33.33%;
+}
+
+.social_media_div a {
+    display: flex;
+
+
+    align-items: center;
+    justify-content: center;
+
+    width: 90px;
+}
+
+img.social_media_icon {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+
+    margin: 0;
+}
+
+.row div p {
+    font-size: 150%;
+    font-weight: bold;
+    -webkit-text-stroke: thin #f9abab;
+
+    justify-content: center;
+    text-align: center;
+
+    margin: 0;
+}
+
+.column1 {
+    display: block;
+    float: left;
+
+
+    width: 33.33%;
+}
+
+.footer_logo_div {
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+
+    margin: 10% 40%;
+}
+
+.column1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.column1 ul {
+    list-style: none;
+
+    overflow: hidden;
+
+    padding: 0;
+}
+
+.column1 ul li {
+    display: block;
+
+    padding: 2%;
+}
+
+.column1 ul li a {
+    display: flex;
+
+    text-decoration: none;
+
+    color: white;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.column1 ul li a button {
+    color: #ef4122;
+    font-weight: bolder;
+
+    background-color: white;
+
+    border-color: #ef4122;
+    border-radius: 0;
+    border-width: 1px;
+    border-style: none;
+
+    width: 60%;
+
+    cursor: pointer;
+}
+
+.column1 ul li a button:hover {
+    color: #f9abab;
+}
+
+.column2 {
+    display: block;
+    float: inherit;
+
+    width: 33.33%;
+}
+
+.column2 ul {
+    list-style: none;
+    overflow: hidden;
+
+    margin: 10% 0;
+    padding: 0;
+}
+
+.column2 ul li {
+    display: block;
+
+    padding: 2%;
+}
+
+.column2 ul li a {
+    display: flex;
+
+    color: white;
+    text-decoration: none;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.column2 li a:hover {
+    color: #f9abab;
+}
+
+.column3 {
+    display: block;
+    float: right;
+
+    width: 33.33%;
+}
+
+.column3 ul {
+    list-style: none;
+    overflow: hidden;
+
+    margin: 10% 0;
+    padding: 0;
+}
+
+.column3 ul li {
+    display: block;
+
+    padding: 2%;
+}
+
+.column3 ul li {
+    display: flex;
+
+    color: white;
+    text-decoration: none;
+
+    justify-content: center;
+    text-align: center;
+}
+
+.project {
+    display: flex;
+
+    margin: 0;
+    padding: 20px 0;
+
+    width: 100%;
+}
+
+.project div {
+    display: flex;
+
+    justify-content: center;
+
+    width: 33.33%;
+}
+
+.project div p {
+    color: white;
+    font-size: 70%;
+
+    justify-content: center;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+}

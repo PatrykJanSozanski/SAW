@@ -1,0 +1,53 @@
+.icon {
+    float: right;
+
+    width: 20px;
+}
+
+.search_bar {
+    float: right;
+
+    box-sizing: border-box;
+
+    padding: 3px 15px 3px 3px;
+}
+
+.search_bar input {
+    float: left;
+
+    font-size: 10px;
+
+    background: white;
+
+    border: 1px solid grey;
+
+    height: 26px;
+}
+
+.search_bar button {
+    float: left;
+
+    color: white;
+    font-size: 10px;
+
+    background: white;
+
+    border: 1px solid grey;
+    border-left: none;
+
+
+    height: 30px;
+
+    cursor: pointer;
+}
+
+.search_bar button:hover {
+    background: #f9abab;
+}
+
+.search_bar::after {
+    display: table;
+
+    content: "";
+    clear: both;
+}

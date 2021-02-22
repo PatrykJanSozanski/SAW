@@ -1,0 +1,124 @@
+html {
+    background-color: #ef4122;
+
+    height: 100%;
+
+    width: 100%;
+}
+
+body {
+    font-family: "Roboto Thin", sans-serif;
+
+    background-color: white;
+
+    margin: 0;
+    padding-top: 5px;
+
+    width: 100%;
+}
+
+html,body {
+    overflow-x: hidden;
+
+    padding: 0;
+}
+
+div.content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin: 5%;
+}
+
+div.table_div {
+    display: inline-block;
+
+    margin-top: 3%;
+
+    width: 40%;
+}
+
+table.profile_table {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+
+    width: 100%;
+}
+
+.profile_table tr {
+    margin: 5%;
+}
+
+.profile_table th {
+    color: white;
+
+    text-align: center;
+
+    background-color: #ef4122;
+
+    margin: 2% 5%;
+}
+
+.profile_table td {
+    font-weight: bold;
+
+    text-align: center;
+
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.profile_table h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.top_form {
+    margin: 5% 10% 0;
+}
+
+.middle_form {
+    margin: 0 10%;
+}
+
+.bottom_form {
+    margin: 0 10% 10%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+input.submit_button {
+    color: white;
+    font-weight: bolder;
+
+    background-color: #ef4122;
+
+    border-color: #ef4122;
+    border-radius: 0;
+    border-width: 1px;
+    border-style: none;
+
+    padding: 5px;
+    margin-top: 20px;
+
+    width: 40%;
+
+    cursor: pointer;
+}
+
+input.submit_button:hover {
+    background-color: #f9abab;
+}
